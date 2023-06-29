@@ -1,0 +1,1683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Cocomart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/home.js"></script>
+</head>
+<body>
+    <!-- wapper -->
+    <div class="wrapper">
+        <!-- Header -->
+        <div class="header">
+            <!-- header top -->
+            <div class="header-top">
+            <!-- header top bên trái -->
+                <div class="header-top-left">
+                    <ul>
+                        <li><a href="#">Chào mừng bạn đến với Cocomart!</a></li>
+                        <li><a href="#">Mở cửa: 8h00 - 22h00, thứ 2 - CN hàng tuần</a></li>
+                    </ul>
+                </div>
+                    <!-- /header top bên trái -->
+                <!-- header top bên phải  -->
+                <div class="header-top-right">
+                    <div class="register">
+                       <a href="">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <span>Đăng nhập</span>
+                        </a>
+                       <a href="">
+                        <i class="fa-brands fa-creative-commons-by"></i>
+                        <span>Đăng kí</span>
+                       </a>
+                    </div>
+                    <div class="hot-sale">
+                       <a href="#">
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <span>Khuyến mãi hot</span>
+                        </a>
+                    </div>
+                    <div class="system-shop">
+                        <a href="#"><i class="fa-solid fa-location-dot"></i>
+                            <span>Hệ thống của hàng</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+                <!-- /header top bên phải  -->
+                <!-- /header top -->
+                <!-- header giữa -->
+            <div class="header-main">
+                <!-- Logo website -->
+                <div class="logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <!-- /logo website -->
+                <!-- Tìm kiếm sản phẩm  -->
+                <div class="seach">
+                    
+                    <form action="#">
+                        <!-- ô nhập dữ  -->
+                        <input type="text" placeholder="Bạn đang tìm kiếm sản phẩm nào ?">
+                        <!-- /ô nhập dữ  -->
+                        <!-- Button -->
+                        <button>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <!-- /Button -->
+                    </form>
+                </div>
+                <!-- /Tìm kiếm sản phẩm  -->
+                <!-- hotline và giỏ hàng -->
+                <div class="phone-cart">
+                    <!-- số hotline -->
+                    <div class="phone">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="contact">
+                            <a href="#">0986.989.626</a>
+                            <div>Hotline đặt hàng</div>
+                        </div>
+                    </div>
+                    <!-- /số hotline -->
+                    <!-- giỏ hàng -->
+                    <div class="cart">
+                        <div class="icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div class="contact">
+                            <a href="">(0) Sản phẩm</a>
+                            <div>Giỏ hàng</div>
+                        </div>
+                    </div>
+                    <!-- /giỏ hàng -->
+                </div>
+                <!-- /hotline và giỏ hàng -->
+            </div>
+            <!-- /header giữa -->
+            <!-- header cuối -->
+            <div class="header-bottom">
+                <nav class="header-bottom-list"><span><i class="fa-sharp fa-solid fa-bars"></i>Danh mục sản phẩm</span>
+                    <ul class="sub-menu">
+                        <li id="item-sub-menu" class="thoitrangnu">
+                            <a class="sub" href="../Shop/shop.html"><img src="images/icon_thoitrangnu.png" alt="">Thời trang nữ</a>
+                            <div class="sub-menu-small">
+                                <ul class="sub-menu1">
+                                    <li><div class="tamgiac"></div></li>
+                                    <li class="sub1">
+                                        <a class="tiltle" href="../Shop/shop.html">Điện gia dụng</a>
+                                        <ul class="sub-menu2">
+                                                <li><a href="../Shop/shop.html">Điện tử và công nghệ</a></li>
+                                                <li><a href="../Shop/shop.html">Mẹ & bé</a></li>
+                                                <li><a href="../Shop/shop.html">Nhà cửa và đời sống</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub2">
+                                        <a class="tiltle" href="#">Sách & văn phòng phẩm</a>
+                                        <ul class="sub-menu2">
+                                            <li><a href="../Shop/shop.html">Sức khoẻ & sắc đẹp</a></li>
+                                            <li><a href="../Shop/shop.html">Thời trang nam</a></li>
+                                            <li><a href="../Shop/shop.html">Thời trang nữ</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        <li id="item-sub-menu"><a class="sub" href="../Shop/shop.html"><img src="images/icon_thoitrangnam.png" alt="">Thời trang nam</a></li>
+                        <li id="item-sub-menu"><a class="sub" href="../Shop/shop.html"><img src="images/icon_dientu.png" alt="">Điện tử & công nghệ</a></li>
+                        <li id="item-sub-menu"><a class="sub" href="../Shop/shop.html"><img src="images/icon_diengiadung.png" alt="">Điện gia dung</a></li>
+                        <li id="item-sub-menu"><a class="sub" href="../Shop/shop.html"><img src="images/icon_suckhoe.png" alt="">Sức khoẻ & sắc đẹp</a></li>
+                        <li id="item-sub-menu"><a class="sub" href="../Shop/shop.html"><img src="images/icon_me&be.png" alt="">Mẹ & bé</a></li>
+                        <li id="item-sub-menu"><a class="sub" href="../Shop/shop.html"><img src="images/icon_nhacua.png" alt="">Nhà cửa & đời sống</a></li>
+                        <li id="item-sub-menu"><a class="sub" href="../Shop/shop.html"><img src="images/icon_sach.png" alt="">Sách và văn phòng phẩm</a></li>
+                    </ul>
+                </nav>
+                <nav class="header-bottom-menu">
+                    <ul class="nav-menu">
+                        <li id="item-bottom-menu"><a class="tiltle" href="">Trang chủ</a></li>
+                        <li id="item-bottom-menu"><a class="tiltle" href="">Giới thiệu</a></li>
+                        <li id="item-bottom-menu" class="sanpham">
+                            <a class="tiltle" href="../Shop/shop.html">
+                            <span>Sản phẩm</span>
+                            <i class="fa-solid fa-sort-down"></i>
+                            </a>
+                            <ul class="sub-product1">
+                                <li class="diengiadung"><a href="../Shop/shop.html">
+                                    <span>Điện gia dụng</span>
+                                    <i class="fa-solid fa-sort-down"></i>
+                                    </a>
+                                    <ul class="sub-product2">
+                                        <li><a href="../Shop/shop.html">Điện tử & công nghệ</a></li>
+                                        <li><a href="../Shop/shop.html">Mẹ & bé</a></li>
+                                        <li><a href="../Shop/shop.html">Nhà cửa & đời sống</a></li>
+                                        <li><a href="../Shop/shop.html">Sách & văn phòng phẩm</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="../Shop/shop.html">Sức khoẻ & sắc đẹp</a></li>
+                                <li><a href="../Shop/shop.html">Thời trang nam</a></li>
+                                <li><a href="../Shop/shop.html">Thời trang nữ</a></li>
+                            </ul>
+                        </li>
+                        <li id="item-bottom-menu"><a class="tiltle" href=""> Tin tức</a></li>
+                        <li id="item-bottom-menu"><a class="tiltle" href="">Liên hệ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- /header cuối -->
+        </div>
+        <!-- /Header -->
+        <!-- banner -->
+        <div class="banner">
+            <div class="banner-big">
+                <img src="images/banner.jpg" alt="">
+            </div>
+            <div class="banner-small">
+                <ul>
+                    <li><a href=""><img src="images/banner_1.png" alt=""></a></li>
+                    <li><a href=""><img src="images/banner_2.png" alt=""></a></li>
+                    <li><a href=""><img src="images/banner_1.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- /banner -->
+        <!-- content -->
+        <div class="content">
+            <h2>
+            <a href="#"><span class="hotdeal">HOT DEAL</span>GIÁ SỐC</a>
+            </h2>
+        </div>
+        <!-- /content -->
+        <!-- container -->
+        <div class="container">
+            <!-- hàng item hot deal -->
+            <div class="item-hotdeal">
+                <!-- sản phẩm -->
+                <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                    <!-- hình ảnh sản phẩm -->
+                    <div class="product-img">
+                        <a href="#"><img src="images/balo.jpg" alt=""></a>
+                    </div>
+                    <!-- hình ảnh sản phẩm -->
+                    <!-- tên sản phẩm -->
+                    <div class="product-name">
+                        <h4>
+                            <a href="#">Balo nữ cá tính mã MSS500</a>
+                        </h4>
+                    </div>
+                    <!-- /tên sản phẩm -->
+                    <!-- GIÁ sản phẩm  -->
+                    <div class="product-price">
+                        <span class="product-price-sale">290,000đ</span>
+                        <span class="product-price-old">500,000đ</span>
+                    </div>
+                    <!-- /GIÁ sản phẩm  -->
+                    <!-- thêm vào giỏ hàng -->
+                    <div class="product-show-buy">
+                        <div class="add-cart">
+                            <div class="buy-product">
+                                <a href="#">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span>Mua ngay</span>
+                                </a>
+                            </div>
+                            <div class="view-port">
+                                <a href=""><i class="fa-solid fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /thêm vào giỏ hàng -->
+                    <!-- tag sản phaamr -->
+                    <div class="product-tag">
+                        <div class="product-tag-percent">
+                            <span class="label">GIÁ SỐC</span>
+                            <div class="percent">-42%</div>
+                        </div>
+                        <div class="product-tag-sale">
+                            <div class="sale">SALE</div>
+                        </div>
+                    </div>
+                    <!-- /tag sản phaamr -->
+                </div>
+                <!-- /sản phẩm -->
+                <!-- sản phẩm -->
+                <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                    <!-- hình ảnh sản phẩm -->
+                    <div class="product-img">
+                        <a href="#"><img src="images/bike.jpg" alt=""></a>
+                    </div>
+                    <!-- hình ảnh sản phẩm -->
+                    <!-- tên sản phẩm -->
+                    <div class="product-name">
+                        <h4>
+                            <a href="#">Xe đẩy bằng gỗ</a>
+                        </h4>
+                    </div>
+                    <!-- /tên sản phẩm -->
+                    <!-- GIÁ sản phẩm  -->
+                    <div class="product-price">
+                        <span class="product-price-sale">290,000đ</span>
+                        <span class="product-price-old">500,000đ</span>
+                    </div>
+                    <!-- /GIÁ sản phẩm  -->
+                    <!-- thêm vào giỏ hàng -->
+                    <div class="product-show-buy">
+                        <div class="add-cart">
+                            <div class="buy-product">
+                                <a href="#">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span>Mua ngay</span>
+                                </a>
+                            </div>
+                            <div class="view-port">
+                                <a href=""><i class="fa-solid fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /thêm vào giỏ hàng -->
+                    <!-- tag sản phaamr -->
+                    <div class="product-tag">
+                        <div class="product-tag-percent">
+                            <span class="label">GIÁ SỐC</span>
+                            <div class="percent">-42%</div>
+                        </div>
+                        <div class="product-tag-sale">
+                            <div class="sale">SALE</div>
+                        </div>
+                    </div>
+                    <!-- /tag sản phaamr -->
+                </div>
+                <!-- /sản phẩm -->
+                <!-- sản phẩm -->
+                <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                    <!-- hình ảnh sản phẩm -->
+                    <div class="product-img">
+                        <a href="#"><img src="images/camera.jpg" alt=""></a>
+                    </div>
+                    <!-- hình ảnh sản phẩm -->
+                    <!-- tên sản phẩm -->
+                    <div class="product-name">
+                        <h4>
+                            <a href="#">Máy Ảnh Nikon D610 (Body)</a>
+                        </h4>
+                    </div>
+                    <!-- /tên sản phẩm -->
+                    <!-- GIÁ sản phẩm  -->
+                    <div class="product-price">
+                        <span class="product-price-sale">290,000đ</span>
+                        <span class="product-price-old">500,000đ</span>
+                    </div>
+                    <!-- /GIÁ sản phẩm  -->
+                    <!-- thêm vào giỏ hàng -->
+                    <div class="product-show-buy">
+                        <div class="add-cart">
+                            <div class="buy-product">
+                                <a href="#">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span>Mua ngay</span>
+                                </a>
+                            </div>
+                            <div class="view-port">
+                                <a href=""><i class="fa-solid fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /thêm vào giỏ hàng -->
+                    <!-- tag sản phaamr -->
+                    <div class="product-tag">
+                        <div class="product-tag-percent">
+                            <span class="label">GIÁ SỐC</span>
+                            <div class="percent">-42%</div>
+                        </div>
+                        <div class="product-tag-sale">
+                            <div class="sale">SALE</div>
+                        </div>
+                    </div>
+                    <!-- /tag sản phaamr -->
+                </div>
+                <!-- /sản phẩm -->
+                <!-- sản phẩm -->
+                <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                    <!-- hình ảnh sản phẩm -->
+                    <div class="product-img">
+                        <a href="#"><img src="images/sieutoc.jpg" alt=""></a>
+                    </div>
+                    <!-- hình ảnh sản phẩm -->
+                    <!-- tên sản phẩm -->
+                    <div class="product-name">
+                        <h4>
+                            <a href="#">Ấm Siêu Tốc Goldsun EK-GF1836SG</a>
+                        </h4>
+                    </div>
+                    <!-- /tên sản phẩm -->
+                    <!-- GIÁ sản phẩm  -->
+                    <div class="product-price">
+                        <span class="product-price-sale">290,000đ</span>
+                        <span class="product-price-old">500,000đ</span>
+                    </div>
+                    <!-- /GIÁ sản phẩm  -->
+                    <!-- thêm vào giỏ hàng -->
+                    <div class="product-show-buy">
+                        <div class="add-cart">
+                            <div class="buy-product">
+                                <a href="#">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span>Mua ngay</span>
+                                </a>
+                            </div>
+                            <div class="view-port">
+                                <a href=""><i class="fa-solid fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /thêm vào giỏ hàng -->
+                    <!-- tag sản phaamr -->
+                    <div class="product-tag">
+                        <div class="product-tag-percent">
+                            <span class="label">GIÁ SỐC</span>
+                            <div class="percent">-42%</div>
+                        </div>
+                        <div class="product-tag-sale">
+                            <div class="sale">SALE</div>
+                        </div>
+                    </div>
+                    <!-- /tag sản phaamr -->
+                </div>
+                <!-- /sản phẩm -->
+                <!-- sản phẩm -->
+                <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                    <!-- hình ảnh sản phẩm -->
+                    <div class="product-img">
+                        <a href="#"><img src="images/bim.jpg" alt=""></a>
+                    </div>
+                    <!-- hình ảnh sản phẩm -->
+                    <!-- tên sản phẩm -->
+                    <div class="product-name">
+                        <h4>
+                            <a href="#">Bỉm – Tã dán Merries size M – 64 miếng</a>
+                        </h4>
+                    </div>
+                    <!-- /tên sản phẩm -->
+                    <!-- GIÁ sản phẩm  -->
+                    <div class="product-price">
+                        <span class="product-price-sale">290,000đ</span>
+                        <span class="product-price-old">500,000đ</span>
+                    </div>
+                    <!-- /GIÁ sản phẩm  -->
+                    <!-- thêm vào giỏ hàng -->
+                    <div class="product-show-buy">
+                        <div class="add-cart">
+                            <div class="buy-product">
+                                <a href="#">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span>Mua ngay</span>
+                                </a>
+                            </div>
+                            <div class="view-port">
+                                <a href=""><i class="fa-solid fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /thêm vào giỏ hàng -->
+                    <!-- tag sản phaamr -->
+                    <div class="product-tag">
+                        <div class="product-tag-percent">
+                            <span class="label">GIÁ SỐC</span>
+                            <div class="percent">-42%</div>
+                        </div>
+                        <div class="product-tag-sale">
+                            <div class="sale">SALE</div>
+                        </div>
+                    </div>
+                    <!-- /tag sản phaamr -->
+                </div>
+                <!-- /sản phẩm -->
+            </div>
+            <!-- /hàng item hot deal -->
+            <!-- Thời trang siêu hot -->
+            <div class="fashion-hot">
+                <div class="top-menu">
+                    <div class="content-hot"><a href="../Shop/shop.html">THỜI TRANG SIÊU HOT</a></div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="../Shop/shop.html">Điện gia dụng</a></li>
+                            <li><a href="../Shop/shop.html">Điện tử & công nghệ</a></li>
+                            <li><a href="../Shop/shop.html">Mẹ & bé</a></li>
+                            <li><a href="../Shop/shop.html">Xem tất cả</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-solid fa-chevron-left"></i>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="row-1"> 
+                    <div class="adv">
+                        <div class="banner-fashion-1"><a href="#"><img src="images/banner_1_fashion.png" alt=""></a></div>
+                        <div class="banner-fashion-1"><a href="#"><img src="images/banner_2_fashion.png" alt=""></a></div>
+                    </div>
+                    <nav class="product-row">
+                        <!-- sản phẩm -->
+                        <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/balo.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Balo nữ cá tính mã MSS500</a>
+                                </h4>
+                            </div>
+                            <!-- /tên sản phẩm -->
+                            <!-- GIÁ sản phẩm  -->
+                            <div class="product-price">
+                                <span class="product-price-sale">290,000đ</span>
+                                <span class="product-price-old">500,000đ</span>
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                            <!-- thêm vào giỏ hàng -->
+                            <div class="product-show-buy">
+                                <div class="add-cart">
+                                    <div class="buy-product">
+                                        <a href="#">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span>Mua ngay</span>
+                                        </a>
+                                    </div>
+                                    <div class="view-port">
+                                        <a href=""><i class="fa-solid fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            <!-- tag sản phaamr -->
+                            <div class="product-tag">
+                                <div class="product-tag-percent">
+                                    <span class="label">GIÁ SỐC</span>
+                                    <div class="percent">-42%</div>
+                                </div>
+                                <div class="product-tag-sale">
+                                    <div class="sale">SALE</div>
+                                </div>
+                            </div>
+                            <!-- /tag sản phaamr -->
+                        </div>
+                        <!-- /sản phẩm -->
+                        <!-- sản phẩm -->
+                        <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/bike.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Xe đẩy bằng gỗ</a>
+                                </h4>
+                            </div>
+                            <!-- /tên sản phẩm -->
+                            <!-- GIÁ sản phẩm  -->
+                            <div class="product-price">
+                                <span class="product-price-sale">290,000đ</span>
+                                <span class="product-price-old">500,000đ</span>
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                            <!-- thêm vào giỏ hàng -->
+                            <div class="product-show-buy">
+                                <div class="add-cart">
+                                    <div class="buy-product">
+                                        <a href="#">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span>Mua ngay</span>
+                                        </a>
+                                    </div>
+                                    <div class="view-port">
+                                        <a href=""><i class="fa-solid fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            <!-- tag sản phaamr -->
+                            <div class="product-tag">
+                                <div class="product-tag-percent">
+                                    <span class="label">GIÁ SỐC</span>
+                                    <div class="percent">-42%</div>
+                                </div>
+                                <div class="product-tag-sale">
+                                    <div class="sale">SALE</div>
+                                </div>
+                            </div>
+                            <!-- /tag sản phaamr -->
+                        </div>
+                        <!-- /sản phẩm -->
+                        <!-- sản phẩm -->
+                        <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/camera.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Máy Ảnh Nikon D610 (Body)</a>
+                                </h4>
+                            </div>
+                            <!-- /tên sản phẩm -->
+                            <!-- GIÁ sản phẩm  -->
+                            <div class="product-price">
+                                <span class="product-price-sale">290,000đ</span>
+                                <span class="product-price-old">500,000đ</span>
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                            <!-- thêm vào giỏ hàng -->
+                            <div class="product-show-buy">
+                                <div class="add-cart">
+                                    <div class="buy-product">
+                                        <a href="#">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span>Mua ngay</span>
+                                        </a>
+                                    </div>
+                                    <div class="view-port">
+                                        <a href=""><i class="fa-solid fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            <!-- tag sản phaamr -->
+                            <div class="product-tag">
+                                <div class="product-tag-percent">
+                                    <span class="label">GIÁ SỐC</span>
+                                    <div class="percent">-42%</div>
+                                </div>
+                                <div class="product-tag-sale">
+                                    <div class="sale">SALE</div>
+                                </div>
+                            </div>
+                            <!-- /tag sản phaamr -->
+                        </div>
+                        <!-- /sản phẩm -->
+                        <!-- sản phẩm -->
+                        <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/sieutoc.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Ấm Siêu Tốc Goldsun EK-GF1836SG</a>
+                                </h4>
+                            </div>
+                            <!-- /tên sản phẩm -->
+                            <!-- GIÁ sản phẩm  -->
+                            <div class="product-price">
+                                <span class="product-price-sale">290,000đ</span>
+                                <span class="product-price-old">500,000đ</span>
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                            <!-- thêm vào giỏ hàng -->
+                            <div class="product-show-buy">
+                                <div class="add-cart">
+                                    <div class="buy-product">
+                                        <a href="#">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span>Mua ngay</span>
+                                        </a>
+                                    </div>
+                                    <div class="view-port">
+                                        <a href=""><i class="fa-solid fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            <!-- tag sản phaamr -->
+                            <div class="product-tag">
+                                <div class="product-tag-percent">
+                                    <span class="label">GIÁ SỐC</span>
+                                    <div class="percent">-42%</div>
+                                </div>
+                                <div class="product-tag-sale">
+                                    <div class="sale">SALE</div>
+                                </div>
+                            </div>
+                            <!-- /tag sản phaamr -->
+                        </div>
+                        <!-- /sản phẩm -->
+                        <!-- sản phẩm -->
+                        <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/bim.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Bỉm – Tã dán Merries size M – 64 miếng</a>
+                                </h4>
+                            </div>
+                            <!-- /tên sản phẩm -->
+                            <!-- GIÁ sản phẩm  -->
+                            <div class="product-price">
+                                <span class="product-price-sale">290,000đ</span>
+                                <span class="product-price-old">500,000đ</span>
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                            <!-- thêm vào giỏ hàng -->
+                            <div class="product-show-buy">
+                                <div class="add-cart">
+                                    <div class="buy-product">
+                                        <a href="#">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span>Mua ngay</span>
+                                        </a>
+                                    </div>
+                                    <div class="view-port">
+                                        <a href=""><i class="fa-solid fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            <!-- tag sản phaamr -->
+                            <div class="product-tag">
+                                <div class="product-tag-percent">
+                                    <span class="label">GIÁ SỐC</span>
+                                    <div class="percent">-42%</div>
+                                </div>
+                                <div class="product-tag-sale">
+                                    <div class="sale">SALE</div>
+                                </div>
+                            </div>
+                            <!-- /tag sản phaamr -->
+                        </div>
+                        <!-- /sản phẩm -->
+                        <!-- sản phẩm -->
+                        <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/vay.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Váy bé gái thêu hồng</a>
+                                </h4>
+                            </div>
+                            <!-- /tên sản phẩm -->
+                            <!-- GIÁ sản phẩm  -->
+                            <div class="product-price">
+                                <span class="product-price-sale">290,000đ</span>
+                                <span class="product-price-old">500,000đ</span>
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                            <!-- thêm vào giỏ hàng -->
+                            <div class="product-show-buy">
+                                <div class="add-cart">
+                                    <div class="buy-product">
+                                        <a href="#">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span>Mua ngay</span>
+                                        </a>
+                                    </div>
+                                    <div class="view-port">
+                                        <a href=""><i class="fa-solid fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            <!-- tag sản phaamr -->
+                            <div class="product-tag">
+                                <div class="product-tag-percent">
+                                    <span class="label">GIÁ SỐC</span>
+                                    <div class="percent">-42%</div>
+                                </div>
+                                <div class="product-tag-sale">
+                                    <div class="sale">SALE</div>
+                                </div>
+                            </div>
+                            <!-- /tag sản phaamr -->
+                        </div>
+                        <!-- /sản phẩm -->
+                        <!-- sản phẩm -->
+                        <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/aothunnu.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Áo Thun Nữ Papka 3011</a>
+                                </h4>
+                            </div>
+                            <!-- /tên sản phẩm -->
+                            <!-- GIÁ sản phẩm  -->
+                            <div class="product-price">
+                                <span class="product-price-sale">290,000đ</span>
+                                <span class="product-price-old">500,000đ</span>
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                            <!-- thêm vào giỏ hàng -->
+                            <div class="product-show-buy">
+                                <div class="add-cart">
+                                    <div class="buy-product">
+                                        <a href="#">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span>Mua ngay</span>
+                                        </a>
+                                    </div>
+                                    <div class="view-port">
+                                        <a href=""><i class="fa-solid fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            <!-- tag sản phaamr -->
+                            <div class="product-tag">
+                                <div class="product-tag-percent">
+                                    <span class="label">GIÁ SỐC</span>
+                                    <div class="percent">-42%</div>
+                                </div>
+                                <div class="product-tag-sale">
+                                    <div class="sale">SALE</div>
+                                </div>
+                            </div>
+                            <!-- /tag sản phaamr -->
+                        </div>
+                        <!-- /sản phẩm -->
+                        <!-- sản phẩm -->
+                        <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/aophong.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Áo phông cá tính MH900</a>
+                                </h4>
+                            </div>
+                            <!-- /tên sản phẩm -->
+                            <!-- GIÁ sản phẩm  -->
+                            <div class="product-price">
+                                <span class="product-price-sale">290,000đ</span>
+                                <span class="product-price-old">500,000đ</span>
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                            <!-- thêm vào giỏ hàng -->
+                            <div class="product-show-buy">
+                                <div class="add-cart">
+                                    <div class="buy-product">
+                                        <a href="#">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span>Mua ngay</span>
+                                        </a>
+                                    </div>
+                                    <div class="view-port">
+                                        <a href=""><i class="fa-solid fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            <!-- tag sản phaamr -->
+                            <div class="product-tag">
+                                <div class="product-tag-percent">
+                                    <span class="label">GIÁ SỐC</span>
+                                    <div class="percent">-42%</div>
+                                </div>
+                                <div class="product-tag-sale">
+                                    <div class="sale">SALE</div>
+                                </div>
+                            </div>
+                            <!-- /tag sản phaamr -->
+                        </div>
+                        <!-- /sản phẩm -->
+                    </nav>
+                </div>
+            </div>
+            <!-- /Thời trang siêu hot -->
+            <!-- đồ điện tử và công nghệ -->
+            <div class="product-technology">
+                <div class="top-menu">
+                    <div class="content-hot"><a href="../Shop/shop.html">ĐỒ CHƠI & CÔNG NGHỆ</a></div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="../Shop/shop.html">Điện gia dụng</a></li>
+                            <li><a href="../Shop/shop.html">Nhà cửa và đời sống</a></li>
+                            <li><a href="../Shop/shop.html">Điện tử & công nghệ</a></li>
+                            <li><a href="../Shop/shop.html">Xem tất cả</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-solid fa-chevron-left"></i>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="row-1"> 
+                    <div class="adv">
+                        <div class="banner-fashion-1"><a href="#"><img src="images/banner_1_tech.jpg" alt=""></a></div>
+                        <div class="banner-fashion-1"><a href="#"><img src="images/banner_2_tech.jpg" alt=""></a></div>
+                    </div>
+                    <nav class="product-row">
+                            <!-- sản phẩm -->
+                            <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/balo.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Balo nữ cá tính mã MSS500</a>
+                                </h4>
+                            </div>
+                            <!-- /tên sản phẩm -->
+                            <!-- GIÁ sản phẩm  -->
+                            <div class="product-price">
+                                <span class="product-price-sale">290,000đ</span>
+                                <span class="product-price-old">500,000đ</span>
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                            <!-- thêm vào giỏ hàng -->
+                            <div class="product-show-buy">
+                                <div class="add-cart">
+                                    <div class="buy-product">
+                                        <a href="#">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span>Mua ngay</span>
+                                        </a>
+                                    </div>
+                                    <div class="view-port">
+                                        <a href=""><i class="fa-solid fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            <!-- tag sản phaamr -->
+                            <div class="product-tag">
+                                <div class="product-tag-percent">
+                                    <span class="label">GIÁ SỐC</span>
+                                    <div class="percent">-42%</div>
+                                </div>
+                                <div class="product-tag-sale">
+                                    <div class="sale">SALE</div>
+                                </div>
+                            </div>
+                            <!-- /tag sản phaamr -->
+                        </div>
+                        <!-- /sản phẩm -->
+                        <!-- sản phẩm -->
+                        <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/bike.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Xe đẩy bằng gỗ</a>
+                                </h4>
+                            </div>
+                            <!-- /tên sản phẩm -->
+                            <!-- GIÁ sản phẩm  -->
+                            <div class="product-price">
+                                <span class="product-price-sale">290,000đ</span>
+                                <span class="product-price-old">500,000đ</span>
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                            <!-- thêm vào giỏ hàng -->
+                            <div class="product-show-buy">
+                                <div class="add-cart">
+                                    <div class="buy-product">
+                                        <a href="#">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span>Mua ngay</span>
+                                        </a>
+                                    </div>
+                                    <div class="view-port">
+                                        <a href=""><i class="fa-solid fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            <!-- tag sản phaamr -->
+                            <div class="product-tag">
+                                <div class="product-tag-percent">
+                                    <span class="label">GIÁ SỐC</span>
+                                    <div class="percent">-42%</div>
+                                </div>
+                                <div class="product-tag-sale">
+                                    <div class="sale">SALE</div>
+                                </div>
+                            </div>
+                            <!-- /tag sản phaamr -->
+                        </div>
+                        <!-- /sản phẩm -->
+                        <!-- sản phẩm -->
+                        <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/camera.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Máy Ảnh Nikon D610 (Body)</a>
+                                </h4>
+                            </div>
+                            <!-- /tên sản phẩm -->
+                            <!-- GIÁ sản phẩm  -->
+                            <div class="product-price">
+                                <span class="product-price-sale">290,000đ</span>
+                                <span class="product-price-old">500,000đ</span>
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                            <!-- thêm vào giỏ hàng -->
+                            <div class="product-show-buy">
+                                <div class="add-cart">
+                                    <div class="buy-product">
+                                        <a href="#">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span>Mua ngay</span>
+                                        </a>
+                                    </div>
+                                    <div class="view-port">
+                                        <a href=""><i class="fa-solid fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            <!-- tag sản phaamr -->
+                            <div class="product-tag">
+                                <div class="product-tag-percent">
+                                    <span class="label">GIÁ SỐC</span>
+                                    <div class="percent">-42%</div>
+                                </div>
+                                <div class="product-tag-sale">
+                                    <div class="sale">SALE</div>
+                                </div>
+                            </div>
+                            <!-- /tag sản phaamr -->
+                        </div>
+                        <!-- /sản phẩm -->
+                        <!-- sản phẩm -->
+                        <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/sieutoc.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Ấm Siêu Tốc Goldsun EK-GF1836SG</a>
+                                </h4>
+                            </div>
+                            <!-- /tên sản phẩm -->
+                            <!-- GIÁ sản phẩm  -->
+                            <div class="product-price">
+                                <span class="product-price-sale">290,000đ</span>
+                                <span class="product-price-old">500,000đ</span>
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                            <!-- thêm vào giỏ hàng -->
+                            <div class="product-show-buy">
+                                <div class="add-cart">
+                                    <div class="buy-product">
+                                        <a href="#">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span>Mua ngay</span>
+                                        </a>
+                                    </div>
+                                    <div class="view-port">
+                                        <a href=""><i class="fa-solid fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            <!-- tag sản phaamr -->
+                            <div class="product-tag">
+                                <div class="product-tag-percent">
+                                    <span class="label">GIÁ SỐC</span>
+                                    <div class="percent">-42%</div>
+                                </div>
+                                <div class="product-tag-sale">
+                                    <div class="sale">SALE</div>
+                                </div>
+                            </div>
+                            <!-- /tag sản phaamr -->
+                        </div>
+                        <!-- /sản phẩm -->
+                        <!-- sản phẩm -->
+                        <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/bim.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Bỉm – Tã dán Merries size M – 64 miếng</a>
+                                </h4>
+                            </div>
+                            <!-- /tên sản phẩm -->
+                            <!-- GIÁ sản phẩm  -->
+                            <div class="product-price">
+                                <span class="product-price-sale">290,000đ</span>
+                                <span class="product-price-old">500,000đ</span>
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                            <!-- thêm vào giỏ hàng -->
+                            <div class="product-show-buy">
+                                <div class="add-cart">
+                                    <div class="buy-product">
+                                        <a href="#">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span>Mua ngay</span>
+                                        </a>
+                                    </div>
+                                    <div class="view-port">
+                                        <a href=""><i class="fa-solid fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            <!-- tag sản phaamr -->
+                            <div class="product-tag">
+                                <div class="product-tag-percent">
+                                    <span class="label">GIÁ SỐC</span>
+                                    <div class="percent">-42%</div>
+                                </div>
+                                <div class="product-tag-sale">
+                                    <div class="sale">SALE</div>
+                                </div>
+                            </div>
+                            <!-- /tag sản phaamr -->
+                        </div>
+                        <!-- /sản phẩm -->
+                            <!-- sản phẩm -->
+                            <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/vay.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Váy bé gái thêu hồng</a>
+                                </h4>
+                            </div>
+                            <!-- /tên sản phẩm -->
+                            <!-- GIÁ sản phẩm  -->
+                            <div class="product-price">
+                                <span class="product-price-sale">290,000đ</span>
+                                <span class="product-price-old">500,000đ</span>
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                            <!-- thêm vào giỏ hàng -->
+                            <div class="product-show-buy">
+                                <div class="add-cart">
+                                    <div class="buy-product">
+                                        <a href="#">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span>Mua ngay</span>
+                                        </a>
+                                    </div>
+                                    <div class="view-port">
+                                        <a href=""><i class="fa-solid fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            <!-- tag sản phaamr -->
+                            <div class="product-tag">
+                                <div class="product-tag-percent">
+                                    <span class="label">GIÁ SỐC</span>
+                                    <div class="percent">-42%</div>
+                                </div>
+                                <div class="product-tag-sale">
+                                    <div class="sale">SALE</div>
+                                </div>
+                            </div>
+                            <!-- /tag sản phaamr -->
+                        </div>
+                        <!-- /sản phẩm -->
+                        <!-- sản phẩm -->
+                        <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/aothunnu.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Áo Thun Nữ Papka 3011</a>
+                                </h4>
+                            </div>
+                            <!-- /tên sản phẩm -->
+                            <!-- GIÁ sản phẩm  -->
+                            <div class="product-price">
+                                <span class="product-price-sale">290,000đ</span>
+                                <span class="product-price-old">500,000đ</span>
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                            <!-- thêm vào giỏ hàng -->
+                            <div class="product-show-buy">
+                                <div class="add-cart">
+                                    <div class="buy-product">
+                                        <a href="#">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span>Mua ngay</span>
+                                        </a>
+                                    </div>
+                                    <div class="view-port">
+                                        <a href=""><i class="fa-solid fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            <!-- tag sản phaamr -->
+                            <div class="product-tag">
+                                <div class="product-tag-percent">
+                                    <span class="label">GIÁ SỐC</span>
+                                    <div class="percent">-42%</div>
+                                </div>
+                                <div class="product-tag-sale">
+                                    <div class="sale">SALE</div>
+                                </div>
+                            </div>
+                            <!-- /tag sản phaamr -->
+                        </div>
+                        <!-- /sản phẩm -->
+                        <!-- sản phẩm -->
+                        <div class="product" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/aophong.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Áo phông cá tính MH900</a>
+                                </h4>
+                            </div>
+                            <!-- /tên sản phẩm -->
+                            <!-- GIÁ sản phẩm  -->
+                            <div class="product-price">
+                                <span class="product-price-sale">290,000đ</span>
+                                <span class="product-price-old">500,000đ</span>
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                            <!-- thêm vào giỏ hàng -->
+                            <div class="product-show-buy">
+                                <div class="add-cart">
+                                    <div class="buy-product">
+                                        <a href="#">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span>Mua ngay</span>
+                                        </a>
+                                    </div>
+                                    <div class="view-port">
+                                        <a href=""><i class="fa-solid fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            <!-- tag sản phaamr -->
+                            <div class="product-tag">
+                                <div class="product-tag-percent">
+                                    <span class="label">GIÁ SỐC</span>
+                                    <div class="percent">-42%</div>
+                                </div>
+                                <div class="product-tag-sale">
+                                    <div class="sale">SALE</div>
+                                </div>
+                            </div>
+                            <!-- /tag sản phaamr -->
+                        </div>
+                        <!-- /sản phẩm -->
+                    </nav>
+                </div>
+            </div>
+            <!-- /đồ điện tử và công nghệ -->
+            <!-- lựa chọn cho bạn -->
+            <div class="product-for-you">
+                <!-- top -->
+                <div class="top-menu">
+                    <div class="content-hot"><a href="#">LỰA CHỌN CHO BẠN</a></div>
+                    <div class="btn">
+                        <i class="fa-solid fa-chevron-left"></i>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+                <!-- /top -->
+                <!-- hàng sản phẩm -->
+                <div class="body-row">
+                    <div class="col-1">
+                        <!-- sản phẩm -->
+                        <div class="product-1" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/balo.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Balo nữ cá tính mã MSS500</a>
+                                </h4>
+                                <div class="product-price">
+                                    <span class="product-price-sale">290,000đ</span>
+                                    <span class="product-price-old">500,000đ</span>
+                                </div>
+                               <!-- thêm vào giỏ hàng -->
+                                <div class="product-show-buy">
+                                    <div class="add-cart">
+                                        <div class="buy-product">
+                                            <a href="#">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                <span>Mua ngay</span>
+                                            </a>
+                                        </div>
+                                        <div class="view-port">
+                                            <a href=""><i class="fa-solid fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                        </div>
+                        <!-- /sản phẩm -->
+                         <!-- sản phẩm -->
+                         <div class="product-1" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/xeday.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Xe đẩy bằng gỗ</a>
+                                </h4>
+                                <div class="product-price">
+                                    <span class="product-price-sale">290,000đ</span>
+                                    <span class="product-price-old">500,000đ</span>
+                                </div>
+                               <!-- thêm vào giỏ hàng -->
+                                <div class="product-show-buy">
+                                    <div class="add-cart">
+                                        <div class="buy-product">
+                                            <a href="#">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                <span>Mua ngay</span>
+                                            </a>
+                                        </div>
+                                        <div class="view-port">
+                                            <a href=""><i class="fa-solid fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                        </div>
+                        <!-- /sản phẩm -->
+                         <!-- sản phẩm -->
+                         <div class="product-1" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/sieutoc.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Ấm Siêu Tốc Goldsun EK-GF1836SG</a>
+                                </h4>
+                                <div class="product-price">
+                                    <span class="product-price-sale">290,000đ</span>
+                                    <span class="product-price-old">500,000đ</span>
+                                </div>
+                               <!-- thêm vào giỏ hàng -->
+                                <div class="product-show-buy">
+                                    <div class="add-cart">
+                                        <div class="buy-product">
+                                            <a href="#">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                <span>Mua ngay</span>
+                                            </a>
+                                        </div>
+                                        <div class="view-port">
+                                            <a href=""><i class="fa-solid fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                        </div>
+                        <!-- /sản phẩm -->
+                         <!-- sản phẩm -->
+                         <div class="product-1" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/vay.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Váy bé gái thêu hồng</a>
+                                </h4>
+                                <div class="product-price">
+                                    <span class="product-price-sale">290,000đ</span>
+                                    <span class="product-price-old">500,000đ</span>
+                                </div>
+                               <!-- thêm vào giỏ hàng -->
+                                <div class="product-show-buy">
+                                    <div class="add-cart">
+                                        <div class="buy-product">
+                                            <a href="#">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                <span>Mua ngay</span>
+                                            </a>
+                                        </div>
+                                        <div class="view-port">
+                                            <a href=""><i class="fa-solid fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                        </div>
+                        <!-- /sản phẩm -->
+                         <!-- sản phẩm -->
+                         <div class="product-1" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/aothunnu.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Áo Thun Nữ Papka 3011</a>
+                                </h4>
+                                <div class="product-price">
+                                    <span class="product-price-sale">290,000đ</span>
+                                    <span class="product-price-old">500,000đ</span>
+                                </div>
+                               <!-- thêm vào giỏ hàng -->
+                                <div class="product-show-buy">
+                                    <div class="add-cart">
+                                        <div class="buy-product">
+                                            <a href="#">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                <span>Mua ngay</span>
+                                            </a>
+                                        </div>
+                                        <div class="view-port">
+                                            <a href=""><i class="fa-solid fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                        </div>
+                        <!-- /sản phẩm -->
+                         <!-- sản phẩm -->
+                         <div class="product-1" onmouseover="show_add_cart(this)" onmouseout="hide_add_cart(this)">
+                            <!-- hình ảnh sản phẩm -->
+                            <div class="product-img">
+                                <a href="#"><img src="images/tainghe.jpg" alt=""></a>
+                            </div>
+                            <!-- hình ảnh sản phẩm -->
+                            <!-- tên sản phẩm -->
+                            <div class="product-name">
+                                <h4>
+                                    <a href="#">Tai Nghe Microlab K400</a>
+                                </h4>
+                                <div class="product-price">
+                                    <span class="product-price-sale">290,000đ</span>
+                                    <span class="product-price-old">500,000đ</span>
+                                </div>
+                               <!-- thêm vào giỏ hàng -->
+                                <div class="product-show-buy">
+                                    <div class="add-cart">
+                                        <div class="buy-product">
+                                            <a href="#">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                <span>Mua ngay</span>
+                                            </a>
+                                        </div>
+                                        <div class="view-port">
+                                            <a href=""><i class="fa-solid fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- /thêm vào giỏ hàng -->
+                            </div>
+                            <!-- /GIÁ sản phẩm  -->
+                        </div>
+                        <!-- /sản phẩm -->
+                    </div>
+    
+                </div>
+                <!-- /hàng sản phẩm -->
+            </div>
+            <!-- /lựa chọn cho bạn -->
+        </div>
+        <!-- /container -->
+        <!-- Nhãn hiệu -->
+        <div class="brand">
+            <!-- content nhãn hiệu -->
+            <div class="brand-content">
+                <h2>
+                    <a href="#"><span>CÁC NHÃN HIỆU ĐƯỢC ƯA CHUỘNG</span></a>
+                </h2>
+            </div>
+            <!-- /content nhãn hiệu -->
+            <!-- logo nhãn hieeuj -->
+            <div class="brand-logo">
+                <div><img src="images/logo-coyote.png" alt=""></div>
+                <div><img src="images/logo-sharp.png" alt=""></div>
+                <div><img src="images/logo-walmart.png" alt=""></div>
+                <div><img src="images/logo-compal.png" alt=""></div>
+                <div><img src="images/logo-berloni.png" alt=""></div>
+                <div><img src="images/logo-redmart.png" alt=""></div>
+            </div>
+            <!-- /logo nhãn hieeuj -->
+        </div>
+        <!-- /Nhãn hiệu -->
+        <!-- dịch vụ -->
+        <div class="service">
+            <div class="service-box">
+                <!-- item service -->
+                <div class="service-box-item">
+                    <div class="service-icon">
+                        <img src="images/pig.png" alt="">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-content-title">Mua hàng siêu tiết kiệm1</div>
+                        <div class="service-content-">Các sản phẩm luôn được bán với giá ưu đã nhất cho khách hàng</div>
+                    </div>
+                </div>
+                <!-- /item service -->
+                <!-- item service -->
+                <div class="service-box-item">
+                    <div class="service-icon">
+                        <img src="images/like.png" alt="">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-content-title">Chất lượng tuyệt đối 100%</div>
+                        <div class="service-content-">Cam kết sản phẩm chính hãng từ Châu Âu, Châu Mỹ...</div>
+                    </div>
+                </div>
+                <!-- /item service -->
+                <!-- item service -->
+                <div class="service-box-item">
+                    <div class="service-icon">
+                        <img src="images/tag.png" alt="">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-content-title">Khuyến mãi cực lớn</div>
+                        <div class="service-content-">Được hưởng ưu đãi và các chương trình khuyến mại cực lớn</div>
+                    </div>
+                </div>
+                <!-- /item service -->
+                <!-- item service -->
+                <div class="service-box-item">
+                    <div class="service-icon">
+                        <img src="images/card.png" alt="">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-content-title">Thanh toán dễ dàng</div>
+                        <div class="service-content-">Phương thức thanh toán đa dạng và cực kì tiện lợi</div>
+                    </div>
+                </div>
+                <!-- /item service -->
+            </div>
+        </div>
+        <!-- /dịch vụ -->
+        <!-- footer -->
+        <div class="footer">
+            <!-- footer công ty -->
+            <div class="footer-top">
+                <div class="footer-company">
+                    <!-- giới thiệu -->
+                    <div class="menu-company">
+                        <!-- menu -->
+                        <div class="title-menu">GIỚI THIỆU</div>
+                        <ul>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Quy chế công ty</a></li>
+                            <li><a href="#">Quy định bán hàng</a></li>
+                            <li><a href="#">Tin tức khuyến mãi</a></li>
+                        </ul>
+                        <!-- /menu -->
+                    </div>
+                    <!-- /giới thiệu -->
+                    <!-- chính sách công ty -->
+                    <div class="menu-company">
+                        <!-- menu -->
+                        <div class="title-menu">CHÍNH SÁCH CÔNG TY</div>
+                        <ul>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Quy chế công ty</a></li>
+                            <li><a href="#">Quy định bán hàng</a></li>
+                            <li><a href="#">Tin tức khuyến mãi</a></li>
+                        </ul>
+                        <!-- /menu -->
+                    </div>
+                    <!-- /chính sách công ty -->
+                    <!-- hỗ trợ khách hàng -->
+                    <div class="menu-company">
+                        <!-- menu -->
+                        <div class="title-menu">HỖ TRỢ KHÁCH HÀNG</div>
+                        <ul>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Quy chế công ty</a></li>
+                            <li><a href="#">Quy định bán hàng</a></li>
+                            <li><a href="#">Tin tức khuyến mãi</a></li>
+                        </ul>
+                        <!-- /menu -->
+                    </div>
+                    <!-- /hỗ trợ khách hàng -->
+                    <!-- thông tin công ty -->
+                    <div class="information">
+                        <!-- menu -->
+                        <div class="title-menu"> CÔNG TY CỔ PHẦN SIÊU THỊ COCOMART</div>
+                        <p>
+                            <strong>Trụ sở chính:</strong> 264 Đình Thôn Mỹ Đình, Quận Nam Từ Liêm, Hà Nội </br>
+                            Điện thoại: 0986.989.626 – Email: topweb.com.vn@gmail.com
+                        </p>
+                        <p>
+                            <strong>Chi nhánh:</strong> 107 Nguyễn Trãi, P2, Quận 5, TP Hồ Chí Minh</br>
+                            Điện thoại: 0986.989.626 – Email: topweb.com.vn@gmail.com
+                        </p>
+                        <p>
+                            <img src="images/tickxanh.png" alt="">
+                            <img src="images/tickdo.png" alt="">
+                        </p>
+                        
+                        <!-- /menu -->
+                    </div>
+                    <!-- /thông tin công ty -->
+                </div>
+            <!-- / footer công ty -->
+            </div>
+            <!-- footer giữa -->
+            <div class="footer-mid">
+                <!-- Nhập email -->
+                <div class="input-email">
+                    <div class="title-menu">ĐĂNG KÍ NHẬN TIN KHUYẾN MÃI</div>
+                    <input class="text" type="text" placeholder="Nhập địa chỉ email">
+                    <input class="btn" type="button" value="Đăng kí">
+                </div>
+                 <!-- /nhập email -->
+                 <!-- phương thức thanh toán -->
+                 <div class="discout">
+                    <div class="title-menu">PHƯƠNG THỨC THANH TOÁN</div>
+                    <img class="icon-discout" src="images/discout.png" alt="">
+                 </div>
+                 <!-- /phương thức thanh toán -->
+                 <!-- contact với chúng tôi -->
+                 <div class="contact-company">
+                    <div class="title-menu">KẾT NỐI VỚI CHÚNG TÔI</div>
+                    <a class="fb" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="tw" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="gg" href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a class="inta" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="yt" href="#"><i class="fa-brands fa-youtube"></i></a>
+                 </div>
+                 <!-- /contact với chúng tôi -->
+            </div>
+            <!-- /footer giữa -->
+        </div>
+        <!-- footer cuối  -->
+        <div class="footer-bottom">
+            <strong>
+                Thiết kế bởi "hunanguyen"
+            </strong>
+        </div>
+        <!-- /footer cuối  -->
+        <!-- footer -->
+    <!-- /warpper -->
+    </div>
+    <!-- <script>
+        $(document).ready(function(){
+            $(".header-bottom-list").hover(function(){
+                $(".sub-menu").slideDown(500);
+            });
+            $(".header-bottom-list").removeAttr(".sub-menu");
+            
+            
+        });
+    </script> -->
+</body>
+</html
